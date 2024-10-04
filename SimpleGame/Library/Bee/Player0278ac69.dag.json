@@ -467,13 +467,7 @@
         457,
         458,
         459,
-        460,
-        461,
-        462,
-        463,
-        464,
-        465,
-        466
+        460
       ],
       "DebugActionIndex": 0
     },
@@ -25810,156 +25804,46 @@
       "DebugActionIndex": 438
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe\" a -tgzip \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.framework.js",
+      "DisplayName": "Copying WebGL.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.framework.js"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
         438
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 439
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_q2ks.info",
-      "DisplayName": "Writing WebGL.framework.js.gz_q2ks.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 181783,
-      "PayloadLength": 487,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_q2ks.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 440
-    },
-    {
-      "Annotation": "GzipMarker E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.framework.js.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.framework.js.gz_q2ks.info\"",
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.wasm",
+      "DisplayName": "Copying WebGL.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_q2ks.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.framework.js.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        439,
-        440
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 441
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe\" a -tgzip \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe"
-      ],
-      "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.wasm"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
         436
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 442
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_rfu6.info",
-      "DisplayName": "Writing WebGL.wasm.gz_rfu6.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 182361,
-      "PayloadLength": 471,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_rfu6.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 443
-    },
-    {
-      "Annotation": "GzipMarker E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.wasm.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.wasm.gz_rfu6.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_rfu6.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.wasm.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        442,
-        443
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 444
+      "DebugActionIndex": 440
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -25980,7 +25864,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 445
+      "DebugActionIndex": 441
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -26001,13 +25885,13 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 446
+      "DebugActionIndex": 442
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 182920,
+      "PayloadOffset": 181772,
       "PayloadLength": 1868,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
@@ -26018,7 +25902,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 447
+      "DebugActionIndex": 443
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -26061,92 +25945,37 @@
       "ToBuildDependencies": [
         2,
         5,
-        447
+        443
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 448
+      "DebugActionIndex": 444
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe\" a -tgzip \"E:/Unity/UnityGamesRollaBall/SimpleGame/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.data",
+      "DisplayName": "Copying WebGL.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.data"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
-        448
+        444
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 449
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.data.gz_p2wb.info",
-      "DisplayName": "Writing WebGL.data.gz_p2wb.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 184879,
-      "PayloadLength": 448,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.data.gz_p2wb.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 450
-    },
-    {
-      "Annotation": "GzipMarker E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.data.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.13f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.data.gz_p2wb.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.data.gz_p2wb.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.data.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        449,
-        450
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 451
+      "DebugActionIndex": 445
     },
     {
       "Annotation": "PreprocessJS E:/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.loader.js",
       "DisplayName": "Preprocessing JavaScript WebGL.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/Build/WebGL.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -26160,19 +25989,19 @@
         8
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 452
+      "DebugActionIndex": 446
     },
     {
       "Annotation": "PreprocessJS E:/Unity/UnityGamesRollaBall/WebGL/index.html",
       "DisplayName": "Preprocessing JavaScript index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/index.html'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/index.html"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
       "InputFlags": [
         0
@@ -26184,67 +26013,19 @@
         8
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 453
-    },
-    {
-      "Annotation": "PreprocessJS E:/Unity/UnityGamesRollaBall/WebGL/manifest.webmanifest",
-      "DisplayName": "Preprocessing JavaScript manifest.webmanifest",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/manifest.webmanifest'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/manifest.webmanifest'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/manifest.webmanifest"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/manifest.webmanifest"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        441,
-        444
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 454
-    },
-    {
-      "Annotation": "PreprocessJS E:/Unity/UnityGamesRollaBall/WebGL/ServiceWorker.js",
-      "DisplayName": "Preprocessing JavaScript ServiceWorker.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/ServiceWorker.js'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/ServiceWorker.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/ServiceWorker.js"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/ServiceWorker.js"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        441,
-        444
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 455
+      "DebugActionIndex": 447
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/favicon.ico",
       "DisplayName": "Copying favicon.ico",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/favicon.ico"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/favicon.ico"
       ],
       "InputFlags": [
         0
@@ -26256,61 +26037,61 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 456
+      "DebugActionIndex": 448
     },
     {
-      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/icons/unity-logo-dark.png",
-      "DisplayName": "Copying unity-logo-dark.png",
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/fullscreen-button.png",
+      "DisplayName": "Copying fullscreen-button.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/icons/unity-logo-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/fullscreen-button.png"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/icons/unity-logo-dark.png"
+        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/fullscreen-button.png"
       ],
       "OutputFlags": [
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 457
+      "DebugActionIndex": 449
     },
     {
-      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/icons/unity-logo-light.png",
-      "DisplayName": "Copying unity-logo-light.png",
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/MemoryProfiler.png",
+      "DisplayName": "Copying MemoryProfiler.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/icons/unity-logo-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/MemoryProfiler.png"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/icons/unity-logo-light.png"
+        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/MemoryProfiler.png"
       ],
       "OutputFlags": [
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 458
+      "DebugActionIndex": 450
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/progress-bar-empty-dark.png",
       "DisplayName": "Copying progress-bar-empty-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-empty-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-dark.png"
       ],
       "InputFlags": [
         0
@@ -26322,17 +26103,17 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 459
+      "DebugActionIndex": 451
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/progress-bar-empty-light.png",
       "DisplayName": "Copying progress-bar-empty-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-empty-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-light.png"
       ],
       "InputFlags": [
         0
@@ -26344,17 +26125,17 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 460
+      "DebugActionIndex": 452
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/progress-bar-full-dark.png",
       "DisplayName": "Copying progress-bar-full-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-full-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-dark.png"
       ],
       "InputFlags": [
         0
@@ -26366,17 +26147,17 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 461
+      "DebugActionIndex": 453
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/progress-bar-full-light.png",
       "DisplayName": "Copying progress-bar-full-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-full-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-light.png"
       ],
       "InputFlags": [
         0
@@ -26388,17 +26169,17 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 462
+      "DebugActionIndex": 454
     },
     {
       "Annotation": "PreprocessJS E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/style.css",
       "DisplayName": "Preprocessing JavaScript style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/style.css'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='E\\x3a/Unity/UnityGamesRollaBall/WebGL/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='SimpleGame'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.13f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION=''\" \"LOADER_FILENAME='WebGL.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/style.css"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
       "InputFlags": [
         0
@@ -26410,19 +26191,19 @@
         8
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 463
+      "DebugActionIndex": 455
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/unity-logo-dark.png",
       "DisplayName": "Copying unity-logo-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/unity-logo-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-dark.png"
       ],
       "InputFlags": [
         0
@@ -26434,17 +26215,17 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 464
+      "DebugActionIndex": 456
     },
     {
       "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/unity-logo-light.png",
       "DisplayName": "Copying unity-logo-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/unity-logo-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-light.png"
       ],
       "InputFlags": [
         0
@@ -26456,10 +26237,54 @@
         10
       ],
       "ToBuildDependencies": [
-        441,
-        444
+        439,
+        440
       ],
-      "DebugActionIndex": 465
+      "DebugActionIndex": 457
+    },
+    {
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/webgl-logo.png",
+      "DisplayName": "Copying webgl-logo.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webgl-logo.png"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/webgl-logo.png"
+      ],
+      "OutputFlags": [
+        10
+      ],
+      "ToBuildDependencies": [
+        439,
+        440
+      ],
+      "DebugActionIndex": 458
+    },
+    {
+      "Annotation": "CopyFiles E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/webmemd-icon.png",
+      "DisplayName": "Copying webmemd-icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webmemd-icon.png"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "E:/Unity/UnityGamesRollaBall/WebGL/TemplateData/webmemd-icon.png"
+      ],
+      "OutputFlags": [
+        10
+      ],
+      "ToBuildDependencies": [
+        439,
+        440
+      ],
+      "DebugActionIndex": 459
     },
     {
       "Annotation": "Player",
@@ -26471,10 +26296,16 @@
       "ToBuildDependencies": [
         4,
         432,
+        439,
+        440,
         441,
-        444,
+        442,
         445,
         446,
+        447,
+        448,
+        449,
+        450,
         451,
         452,
         453,
@@ -26483,15 +26314,9 @@
         456,
         457,
         458,
-        459,
-        460,
-        461,
-        462,
-        463,
-        464,
-        465
+        459
       ],
-      "DebugActionIndex": 466
+      "DebugActionIndex": 460
     }
   ],
   "FileSignatures": [
@@ -26819,7 +26644,7 @@
       "Filter": "*.js"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default",
       "Recurse": 1
     },
     {
@@ -26868,7 +26693,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 466
+          "Player": 460
         }
 ,  "DefaultNodes": [
     0

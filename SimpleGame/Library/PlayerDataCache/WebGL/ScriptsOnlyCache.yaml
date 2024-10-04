@@ -1327,4 +1327,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: E:/Unity/UnityGamesRollaBall
+  playerPath: E:/Unity/UnityGamesRollaBall/WebGL

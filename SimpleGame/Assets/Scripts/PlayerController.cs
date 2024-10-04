@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
 
-    private int scoreCount = 0;
+    private int scoreCount;
+    private int numPickups = 8;
+
+    public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI WinText;
 
     private InputHandler inputHandler;
     private CharacterController characterController;
@@ -15,6 +21,10 @@ public class PlayerController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         inputHandler = GetComponent<InputHandler>();
+
+        scoreCount = 0;
+        WinText.text = "";
+        SetCountText();
     }
 
     private void Update()
@@ -30,6 +40,16 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             scoreCount++;
+            SetCountText();
+        }
+    }
+
+    private void SetCountText()
+    {
+        ScoreText.text = " Score : " + scoreCount.ToString();
+        if (scoreCount >= numPickups)
+        {
+            WinText.text = "Woohoo! You Win";
         }
     }
 }
